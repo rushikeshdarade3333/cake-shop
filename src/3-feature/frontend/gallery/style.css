@@ -1,0 +1,34 @@
+.yash {
+  width: 400px;
+  position: relative;
+  display: inline-block;
+  padding: 20px;
+}
+.yash img {
+  width: 50%;
+  height: 50%;
+  box-shadow: 10px 10px 10px #000;
+  border: 5px solid rgb(151, 103, 103);
+  transition: 3s;
+}
+
+.yash:hover img {
+  transform: scale(1.24);
+  filter: grayscale(0);
+}
+.yash h3 {
+  display: none;
+  color: #000;
+  font-size: 30px;
+  width: 90%;
+  text-align: center;
+  position: absolute;
+  top: calc(25% - 15px);
+}
+.yash:hover h3 {
+  display: block;
+}
+.aarti Button {
+  top: calc(60%);
+  right: calc(100%);
+}

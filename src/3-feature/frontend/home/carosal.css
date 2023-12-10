@@ -1,0 +1,31 @@
+.about {
+  background-image: url("https://tse4.mm.bing.net/th?id=OIP.lSwt2z-a-dZFeIkEOjOhDAHaLH&pid=Api&P=0");
+  color: aliceblue;
+  background-color: gray;
+  font-size: 38px;
+  font-weight: bold;
+}
+.about h2 {
+  color: pink;
+  margin-top: 30px;
+  font-weight: bold;
+}
+@media screen and (max-width: 575.98px) {
+  #carouselExampleControls {
+    height: 300px;
+    background-color: blue;
+  }
+  .carousel-item {
+    height: 300px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .about {
+    margin-left: auto;
+    width: 500px;
+  }
+}
+.text {
+  margin-top: 50px;
+}
